@@ -1,0 +1,27 @@
+{
+    "name": "e2e-ui-test-automation-framework",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "lint": "eslint --ext .js",
+        "test": "wdio run wdio.conf.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@babel/core": "^7.16.7",
+        "@babel/preset-env": "^7.16.7",
+        "@babel/register": "^7.16.7",
+        "@wdio/cli": "^7.16.12",
+        "@wdio/local-runner": "^7.16.12",
+        "@wdio/mocha-framework": "^7.16.11",
+        "@wdio/spec-reporter": "^7.16.11",
+        "chromedriver": "^96.0.0",
+        "wdio-chromedriver-service": "^7.2.3"
+    },
+    "dependencies": {
+        "chai": "^4.3.4",
+        "eslint": "^8.6.0"
+    }
+}
