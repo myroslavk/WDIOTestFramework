@@ -1,4 +1,4 @@
-# Automation QA Engineer - Home Assignment
+# Test
 
 API Test Automation framework is located in `api-test-automation-framework`.
 
