@@ -11,7 +11,6 @@ describe('E2E test', () => {
     it('should open main page', async () => {
         await MainPage.open();
         expect(await browser.getUrl()).contains(config.baseUrl);
-
     });
 
     it('should navigate to infinite scroll page', async () => {
