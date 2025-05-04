@@ -1,7 +1,7 @@
 import { expect } from 'chai';
-import { ErrorType, generateCreatePetBody } from '../src/testData.ts';
-import { petController } from '../src/controllers/petController.ts';
-import { CreatePetOptions, GetPetByIdOptions } from '../src/models/petController.ts';
+import { ErrorType, generateCreatePetBody } from '../../src/testData.ts';
+import { petController } from '../../src/controllers/petController.ts';
+import { CreatePetOptions, GetPetByIdOptions } from '../../src/models/petController.ts';
 
 describe('Get pet by id', () => {
     const createPetRequestBody = generateCreatePetBody();
