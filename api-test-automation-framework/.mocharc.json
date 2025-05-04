@@ -1,5 +1,5 @@
 {
-    "require": "@babel/register",
     "timeout": 1000000,
-    "spec": "tests/test.spec.js"
+    "spec": "tests/*.spec.ts",
+    "loader": "ts-node/esm"
 }
