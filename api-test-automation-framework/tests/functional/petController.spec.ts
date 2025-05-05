@@ -1,7 +1,7 @@
 import { expect } from "chai";
-import { petController } from "../../src/controllers/petController";
-import { CreatePetOptions, GetPetByIdOptions } from "../../src/models/petController";
-import { generateCreatePetBody } from "../../src/testData";
+import { petController } from "../../src/controllers/petController.ts";
+import { CreatePetOptions, GetPetByIdOptions } from "../../src/models/petController.ts";
+import { generateCreatePetBody } from "../../src/testData.ts";
 
 describe('API pet controller', () => {
     it('Create pet and get it', async () => {

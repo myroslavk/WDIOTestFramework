@@ -1,5 +1,5 @@
 {
     "timeout": 1000000,
-    "spec": "tests/*.spec.ts",
+    "spec": "tests/**/*.spec.ts",
     "loader": "ts-node/esm"
 }

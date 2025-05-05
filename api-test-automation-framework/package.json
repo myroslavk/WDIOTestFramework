@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "lint": "eslint --ext .js",
+    "lint": "eslint --ext .ts",
     "test": "mocha"
   },
   "author": "",
@@ -21,9 +21,6 @@
     "typescript": "^5.8.3"
   },
   "devDependencies": {
-    "@babel/core": "^7.16.5",
-    "@babel/preset-env": "^7.16.5",
-    "@babel/register": "^7.16.5",
     "@types/chai": "^5.2.1",
     "@types/mocha": "^10.0.10",
     "@types/supertest": "^6.0.3"
